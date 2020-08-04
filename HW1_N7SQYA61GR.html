@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+           div{
+               background-color: #f2f2f2;
+               padding: 20px;
+               width: 60%;
+               height: 60%;
+               margin: 80px auto;
+           }
+        
+        
+        #firstname{
+            margin-top: 6px;
+            display:block;
+            width: 100%;
+        }
+        #lastname{
+            margin-top: 6px;
+            display: block;
+            width: 100%;
+        }
+        #country{
+            margin-top: 6px;
+            display: block;
+            width: 100%;
+        }
+        #subject{
+            margin-top: 6px;
+            display: block;
+            width:100%
+        }
+        button{
+            border: none;
+            text-decoration: none;
+            color: white;
+            margin-top: 10px;
+            background-color: rgb(75, 202, 75);
+            font-size: 16px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <form class= "form-inline" action="text">
+            <label for="">First Name</label><br>
+            <input type="text" name="firstname" id="firstname" placeholder="Your First name"><br>
+            <label for="Last Name">Last Name</label><br>
+            <input type="text" name="lastname" id="lastname" placeholder="Your Last name"><br>
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="AS">Australia</option>
+                <option value="GH">Ghana</option>
+                <option value="NG">Nigeria</option>
+
+            </select>
+            <label for="Subject">Subject</label>
+            <textarea name="Subject" id="subject" cols="30" rows="10" placeholder="Write something......."></textarea>
+
+            <button id="button">Submit</button>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
